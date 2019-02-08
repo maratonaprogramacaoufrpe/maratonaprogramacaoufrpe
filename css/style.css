@@ -8,11 +8,11 @@
 
 .float_center {
     float: right;
-
     position: relative;
     left: -50%; /* or right 50% */
     text-align: left;
 }
+
 .float_center > .child {
     position: relative;
     left: 50%;
@@ -21,7 +21,6 @@
 
 ul{
     list-style-type: none;
-    width: 100%;
     overflow: hidden;
     background-color: navy;
 
