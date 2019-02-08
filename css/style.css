@@ -6,21 +6,15 @@
     background-color: #FFFFFF;
 }
 
-.logo{
-    background-image: image("http://www.ufrpe.br/sites/www.ufrpe.br/files/Marcas%20UFRPE-02.jpg");
-    width: 20px;
-    height: 10px;
-}
 
 ul{
     list-style-type: none;
     margin:0;
     padding:0;
     overflow: hidden;
-    background-color: cadetblue;
+    background-color: navy;
     position: fixed;
     top: 0;
-    width: 100%;
 }
 
 li{
@@ -31,10 +25,9 @@ li a{
     color: white;
     display: block;
     padding: 8px;
-    text-align: center;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: darkcyan;
+    background-color: cornflowerblue;
 }
