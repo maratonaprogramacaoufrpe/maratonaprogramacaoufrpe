@@ -22,24 +22,47 @@
     margin-top: 50px;
 }
 
+body{
+    margin: 0;
+}
+
 ul{
     list-style-type: none;
     overflow: hidden;
     background-color: navy;
     width:80%;
+
 }
 
-li{
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: navy;
+}
+
+ul.topnav li {
     float: left;
 }
 
-li a{
-    color: white;
+ul.topnav li a {
     display: block;
-    padding: 10px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
-li a:hover {
+ul.topnav li a:hover{
     background-color: cornflowerblue;
+}
+
+ul.topnav li.right {
+    float: right;
+}
+
+@media screen and (max-width: 600px) {
+    ul.topnav li.right,
+    ul.topnav li {float: none;}
 }
