@@ -9,7 +9,7 @@
 .float_center {
     float: right;
     position: relative;
-    right: -50%; /* or right 50% */
+    left: -50%; /* or right 50% */
     text-align: left;
 }
 
@@ -31,38 +31,20 @@ ul{
     overflow: hidden;
     background-color: navy;
     width:80%;
-
 }
 
-ul.topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: navy;
-}
-
-ul.topnav li {
+li{
     float: left;
 }
 
-ul.topnav li a {
-    display: block;
+li a{
     color: white;
-    text-align: center;
-    padding: 14px 16px;
+    display: block;
+    padding: 10px;
     text-decoration: none;
 }
 
-ul.topnav li a:hover{
+li a:hover {
     background-color: cornflowerblue;
 }
 
-ul.topnav li.right {
-    float: right;
-}
-
-@media screen and (max-width: 600px) {
-    ul.topnav li.right,
-    ul.topnav li {float: none;}
-}
