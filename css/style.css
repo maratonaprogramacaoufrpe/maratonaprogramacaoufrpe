@@ -19,13 +19,14 @@
 }
 
 .navBar{
-    top: 50px;
+    margin-top: 50px;
 }
 
 ul{
     list-style-type: none;
     overflow: hidden;
     background-color: navy;
+    width:80%;
 }
 
 li{
