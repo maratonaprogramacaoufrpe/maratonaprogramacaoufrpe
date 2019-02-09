@@ -9,7 +9,7 @@
 .float_center {
     float: right;
     position: relative;
-    left: -50%; /* or right 50% */
+    right: -50%; /* or right 50% */
     text-align: left;
 }
 
