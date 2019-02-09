@@ -18,6 +18,9 @@
     left: 50%;
 }
 
+.navBar{
+    top: 50px;
+}
 
 ul{
     list-style-type: none;
